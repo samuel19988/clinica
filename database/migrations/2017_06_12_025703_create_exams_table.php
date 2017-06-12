@@ -18,7 +18,7 @@ class CreateExamsTable extends Migration
             $table->string('nombre');
             $table->string('descripcion');
             $table->string('tipo');
-            $table->string('paciente_id');
+            $table->string('patient_id');
             $table->timestamps();
         });
     }
