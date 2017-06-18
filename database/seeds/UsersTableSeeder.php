@@ -44,5 +44,13 @@ class UsersTableSeeder extends Seeder
             'rol' => 'medico',
             'especialidad' => 'enologo'
             ]);
+        User::create([
+            'name' => "Josefina Vitulich",
+            'email' => 'jvitulich@alumnos.uai.cl',
+            'password' => bcrypt('123456'),
+            'rut' => '6-9',
+            'rol' => 'secretaria',
+            'especialidad' => ''
+        ]);
     }
 }
