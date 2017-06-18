@@ -15,7 +15,7 @@ class ExamTableSeeder extends Seeder
           Exam:: create([
               'nombre'=> $faker-> sentence(3,true),
               'descripcion'=> $faker-> sentense(12, true),
-              'tipo'=> $faker->(rand(0,1)==1)? 'Laboratorio':'Rayos X, Gamma, Alpha',
+              'tipo'=> (rand(0,1)==1)? 'Laboratorio':'Rayos X, Gamma, Alpha',
               'patient id'=> rand(1,500)
           ]);
 
