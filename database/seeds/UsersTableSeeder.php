@@ -36,5 +36,11 @@ class UsersTableSeeder extends Seeder
             'rol' => 'medico',
             'especialidad' => 'hola'
         ]);
+        'name' => "Sebastián Montoya",
+            'email' => 'smontoya@alumnos.uai.cl',
+            'password' => bcrypt('123456'),
+            'rut' => '6-9',
+            'rol' => 'medico',
+            'especialidad' => 'enologo'
     }
 }
