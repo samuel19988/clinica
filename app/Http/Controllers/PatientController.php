@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 use \App\patient;
 use Illuminate\Http\Request;
 
-class PatientExamsController extends Controller
+class PatientController extends Controller
 {
        public function showExams($id){
 $patient = Patient::find($id);
