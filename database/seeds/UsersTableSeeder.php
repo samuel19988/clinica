@@ -26,7 +26,7 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('123456'),
             'rut' => '2-7',
             'rol' => 'medico',
-            'especialidad' => 'Urologo premium'
+            'especialidad' => 'ginecologo jefe del seba'
         ]);
         User::create([
             'name' => "Leonardo Hidalgo",
