@@ -8,7 +8,6 @@ class PatientExamsController extends Controller
 {
        public function showExams($id){
 $patient = patient::find($id);
-//$exams = $patient->exams();
-return $patient;
-//return $exams;
+$exams = $patient->exams();
+return $exams;
 }}
