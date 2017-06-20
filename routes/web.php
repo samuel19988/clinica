@@ -18,4 +18,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/patients/{id}','PatientController@showExams');
+Route::get('/patients/{id}','PatientExamsController@showExams');

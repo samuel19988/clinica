@@ -1,12 +1,10 @@
 <?php
 
 use Illuminate\Database\Seeder;
+Use \App\patient;
 use Faker\Factory as Faker;
-use \App\Patient;
-
 class PatientsTableSeeder extends Seeder
 {
-
     /**
      * Run the database seeds.
      *

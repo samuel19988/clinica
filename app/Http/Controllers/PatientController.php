@@ -7,7 +7,8 @@ use Illuminate\Http\Request;
 class PatientController extends Controller
 {
        public function showExams($id){
-$patient = Patient::find($id);
-$exams = $patient->exams();
-return $exams;
+$patient = patient::find($id);
+//$exams = $patient->exams();
+return $patient;
+//return $exams;
 }}
