@@ -13,6 +13,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href='/css/fullcalendar.min.css' rel='stylesheet' />
+    <link href='/css/font-awesome.min.css' rel='stylesheet' />
     <link href='/css/fullcalendar.print.min.css' rel='stylesheet' media='print' />
     @yield('css','')
 </head>
