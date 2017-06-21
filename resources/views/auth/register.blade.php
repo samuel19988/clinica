@@ -59,9 +59,8 @@
 
                                 <div class="col-md-6">
                                     <select name="rol" id="rol" class="form-control">
-                                        <option>Seleccione un Rol</option>
                                         <option value="medico">Medic@</option>
-                                        <option value="secre">Secretari@</option>
+
                                     </select>
                                 </div>
                             </div>
