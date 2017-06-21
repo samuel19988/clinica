@@ -12,6 +12,9 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href='/css/fullcalendar.min.css' rel='stylesheet' />
+    <link href='/css/fullcalendar.print.min.css' rel='stylesheet' media='print' />
+    @yield('css','')
 </head>
 <body>
     <div id="app">
@@ -75,6 +78,10 @@
     </div>
 
     <!-- Scripts -->
+    <script src='/js/moment.min.js'></script>
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src='/js/fullcalendar.min.js'></script>
+    <script src='/js/locale-all.js'></script>
+@yield('js','')
 </body>
 </html>
