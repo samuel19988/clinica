@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use \App\User;
+use \App\Patient;
 
 class HomeController extends Controller
 {
@@ -25,7 +25,7 @@ class HomeController extends Controller
     public function index()
     {
 
-        $users = \App\User::all();
-        return view('home')->with(compact('users'));
+        $patients = \App\Patient::orderBy('apellido','ASC')->paginate(20);
+        return view('home')->with(compact('patients'));
     }
 }
