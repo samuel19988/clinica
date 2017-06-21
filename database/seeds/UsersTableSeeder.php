@@ -49,8 +49,8 @@ class UsersTableSeeder extends Seeder
             'email' => 'jvitulich@alumnos.uai.cl',
             'password' => bcrypt('123456'),
             'rut' => '6-9',
-            'rol' => 'secretaria',
-            'especialidad' => ''
+            'rol' => 'medico',
+            'especialidad' => 'influenziologa'
         ]);
     }
 }
