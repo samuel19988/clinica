@@ -19,7 +19,5 @@ class ExamTableSeeder extends Seeder
               'tipo'=> (rand(0,1)==1)? 'Laboratorio':'Rayos X, Gamma, Alpha',
               'patient_id'=> rand(1,500)
           )]);
-
-
     }
 }
