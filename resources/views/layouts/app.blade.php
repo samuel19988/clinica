@@ -8,12 +8,13 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>CLINICA UAI</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href='/css/fullcalendar.min.css' rel='stylesheet' />
     <link href='/css/font-awesome.min.css' rel='stylesheet' />
+    <link href='/css/jquery.dataTables.min.css' rel='stylesheet' />
     <link href='/css/fullcalendar.print.min.css' rel='stylesheet' media='print' />
     @yield('css','')
 </head>
@@ -33,7 +34,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                       CLINICA UAI
                     </a>
                 </div>
 
@@ -82,6 +83,7 @@
     <script src='/js/moment.min.js'></script>
     <script src="{{ asset('js/app.js') }}"></script>
     <script src='/js/fullcalendar.min.js'></script>
+    <script src='/js/jquery.dataTables.min.js'></script>
     <script src='/js/locale-all.js'></script>
 @yield('js','')
 </body>
