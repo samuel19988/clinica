@@ -6,7 +6,7 @@
             <div class="col-sm-3 col-md-2 sidebar">
                 <ul class="nav nav-sidebar">
                     <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-                    <li><a href="">sami</a></li>
+                    <li><a href="#">sami</a></li>
                     <li><a href="#">sofi</a></li>
                     <li><a href="#">seba</a></li>
                 </ul>
@@ -44,7 +44,6 @@
                         @foreach($patients as $patient)
                             <tr>
                                 <td><a href="/patients/{{$patient->id}}" class="btn btn-default">{{$patient->nombre}}</a></td>
-                                <td>{{$patient->nombre}}</td>
                                 <td>{{$patient->apellido}}</td>
                                 <td>{{$patient->rut}}</td>
                                 <td>{{$patient->fecha}}</td>
