@@ -6,12 +6,12 @@
             <div class="col-sm-3 col-md-2 sidebar">
                 <ul class="nav nav-sidebar">
                     <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#">Reports</a></li>
-                    <li><a href="#">Analytics</a></li>
-                    <li><a href="#">Export</a></li>
+                    <li><a href="#">sami</a></li>
+                    <li><a href="#">sofi</a></li>
+                    <li><a href="#">seba</a></li>
                 </ul>
                 <ul class="nav nav-sidebar">
-                    <li><a href="">Nav item</a></li>
+                    <li><a href=""><strong>jo</strong></a></li>
                     <li><a href="">Nav item again</a></li>
                     <li><a href="">One more nav</a></li>
                     <li><a href="">Another nav item</a></li>
@@ -179,6 +179,8 @@
                 eventLimit: true, // allow "more" link when too many event
                 locale:'es',
                 defaultView: 'agendaWeek',
+                minTime: "08:00:00",
+                maxTime: "20:00:00",
                 events: [
                     {
                         title: 'All Day Event',
