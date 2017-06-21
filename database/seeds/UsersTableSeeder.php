@@ -50,7 +50,7 @@ class UsersTableSeeder extends Seeder
             'password' => bcrypt('123456'),
             'rut' => '6-9',
             'rol' => 'medico',
-            'especialidad' => 'influenziologa'
+            'especialidad' => 'influenciologa'
         ]);
     }
 }
