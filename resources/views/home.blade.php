@@ -9,9 +9,9 @@
                     <li><a href="#">sami</a></li>
                     <li><a href="#">sofi</a></li>
                     <li><a href="#">seba</a></li>
+                    <li><a href="#">jo</a></li>
                 </ul>
                 <ul class="nav nav-sidebar">
-                    <li><a href=""><strong>jo</strong></a></li>
                     <li><a href="">Nav item again</a></li>
                     <li><a href="">One more nav</a></li>
                     <li><a href="">Another nav item</a></li>
@@ -26,7 +26,7 @@
             <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
                 <div id='calendar' style="background-color: white"></div>
 
-                <h2 class="sub-header">Section title</h2>
+                <h2 class="sub-header">PACIENTES</h2>
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
@@ -77,7 +77,7 @@
                 },
                 defaultDate: '2017-05-12',
                 navLinks: true, // can click day/week names to navigate views
-                editable: false,
+                editable: true,
                 eventLimit: true, // allow "more" link when too many event
                 locale:'es',
                 defaultView: 'agendaWeek',
@@ -85,7 +85,7 @@
                 maxTime: "20:00:00",
                 events: [
                     {
-                        title: 'Cumpleaños sofia',
+                        title: '',
                         start: '2017-05-01'
                     },
                     {
