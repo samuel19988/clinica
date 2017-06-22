@@ -1,8 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-Use \App\Exam;
-use Faker\Factory as Faker;
+
 class ExamTableSeeder extends Seeder
 {
     /**

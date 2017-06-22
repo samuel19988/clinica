@@ -30,12 +30,14 @@
                 <tr>
                     <td>Nombre</td>
                     <td>Descripción</td>
+                    <td>Prescripcion</td>
                     <td>-</td>
                 </tr>
                 @foreach($diagnostics as $diagnostic)
                     <tr>
                         <td>{{$diagnostic->nombre}}</td>
                         <td>{{$diagnostic->descripcion}}</td>
+                        <td>{{$diagnostic->medicina}}</td>
                     </tr>
                 @endforeach
             </table>
