@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-
+use \App\Exam;
+use Faker\Factory as Faker;
 class ExamTableSeeder extends Seeder
 {
     /**
@@ -10,7 +11,7 @@ class ExamTableSeeder extends Seeder
      * @return void
      */
     public function run()
-    { $faker=Faker::create();
+    { $faker = Faker ::create();
       for($i=0;$i<1000; $i++)
           Exam:: create([
               'nombre'=> $faker->sentence(6,true),

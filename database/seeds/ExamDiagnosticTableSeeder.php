@@ -1,9 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\ExamDiagnostic;
+use \App\ExamDiagnostic;
 //use Faker\Factory as Faker;
-
 class ExamDiagnosticTableSeeder extends Seeder
 {
     /**

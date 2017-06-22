@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\DiagnosticMedicine;
+
 class DiagnosticMedicineTableSeeder extends Seeder
 {
     /**
@@ -11,10 +12,11 @@ class DiagnosticMedicineTableSeeder extends Seeder
      */
     public function run()
     {
-        for($i=0;$i<1000; $i++)
-            DiagnosticMedicine:: create([
-                'diagnostic_id'=> rand(1,1000),
-                'medicine_id'=> rand(1,200)
-            ]);//
+
+        for ($i = 0; $i < 5000; $i++)
+            DiagnosticMedicine::create([
+                'diagnostic_id' => rand(1, 1000),
+                'medicine_id' => rand(1, 1000),
+            ]);
     }
 }
