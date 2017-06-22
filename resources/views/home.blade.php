@@ -76,57 +76,56 @@
                 maxTime: "20:00:00",
                 events: [
                     {
-                        title: '',
+                        title: 'Visita Doctor Samuel',
                         start: '2017-05-01'
                     },
                     {
-                        title: 'Long Event',
+                        title: 'Visita Doctor Sebastian',
                         start: '2017-05-07',
                         end: '2017-05-10'
                     },
                     {
                         id: 999,
-                        title: 'Repeating Event',
+                        title: 'Visita Doctora Sofia',
                         start: '2017-05-09T16:00:00'
                     },
                     {
                         id: 999,
-                        title: 'Repeating Event',
+                        title: 'Visita Doctor Sebastian',
                         start: '2017-05-16T16:00:00'
                     },
                     {
-                        title: 'Conference',
+                        title: 'Visita Doctora Sofia',
                         start: '2017-05-11',
                         end: '2017-05-13'
                     },
                     {
-                        title: 'Meeting',
+                        title: 'Visita Doctora Josefina',
                         start: '2017-05-12T10:30:00',
                         end: '2017-05-12T12:30:00'
                     },
                     {
-                        title: 'Lunch',
+                        title: 'Visita Doctor Samuel',
                         start: '2017-05-12T12:00:00'
                     },
                     {
-                        title: 'Meeting',
+                        title: 'Visita Doctor Sebastian',
                         start: '2017-05-12T14:30:00'
                     },
                     {
-                        title: 'Happy Hour',
+                        title: 'Visita Doctora Sofia',
                         start: '2017-05-12T17:30:00'
                     },
                     {
-                        title: 'Dinner',
+                        title: 'Visita Doctora Josefina',
                         start: '2017-05-12T20:00:00'
                     },
                     {
-                        title: 'Birthday Party',
+                        title: 'Visita Doctora Sofia',
                         start: '2017-05-13T07:00:00'
                     },
                     {
-                        title: 'Click for Google',
-                        url: 'http://google.com/',
+                        title: 'Visita Doctor Samuel',
                         start: '2017-05-28'
                     }
                 ]

@@ -3,7 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Diagnostic;
+use \App\Diagnostic;
 class exam extends Model
 {
     public function diagnostics()

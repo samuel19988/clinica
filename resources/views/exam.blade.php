@@ -30,7 +30,6 @@
                 <tr>
                     <td>Nombre</td>
                     <td>Descripción</td>
-                    <td>Prescripcion</td>
                     <td>-</td>
                 </tr>
                 @foreach($diagnostics as $diagnostic)
@@ -38,6 +37,7 @@
                         <td>{{$diagnostic->nombre}}</td>
                         <td>{{$diagnostic->descripcion}}</td>
                         <td>{{$diagnostic->medicina}}</td>
+                        <td><a href="/medicines/{{$medicine->id}}">ver medicinas</a></td>
                     </tr>
                 @endforeach
             </table>
