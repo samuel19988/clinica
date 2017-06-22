@@ -11,7 +11,7 @@
                 <table class="table table-bordered" style="color: #1b6d85; font-weight: bold">
                     <tr>
                         <td>Nombre</td>
-                        <td>{{$examen->nombre}}</td>
+                        <td>{{$exam->nombre}}</td>
                     </tr>
                     <tr>
                         <td>Tipo</td>
@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="row">
-            <table id="Diagnostico">
+            <table id="Diagnosticos">
                 <tr>
                     <td>Nombre</td>
                     <td>Descripción</td>

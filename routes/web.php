@@ -19,4 +19,4 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/patients/{id}','PatientsController@showExams');
-Route::get('/exams/{{$exam->id}}','ExamsController@showDiagnostics');
+Route::get('/exams/{id}','ExamsController@showDiagnostics');
