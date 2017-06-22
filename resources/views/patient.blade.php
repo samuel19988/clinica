@@ -42,6 +42,8 @@
                     <td>Nombre</td>
                     <td>Tipo</td>
                     <td>Descripción</td>
+                    <td>diagnosticos</td>
+
                     <td>-</td>
                 </tr>
                 @foreach($exams as $exam)

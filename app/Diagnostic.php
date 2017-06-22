@@ -3,9 +3,13 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use \App\exam;
 
 class Diagnostic extends Model
 {
-  public function medicines(){
-    return $this->belongsToMany('App\medicines')->get();
-}}
+    public function Diagnostic()
+    {
+        return $this->belongsToMany('App\exam', 'exmas_diagnostics', 'exam_id',
+            'diagnostic_id');
+    }
+}

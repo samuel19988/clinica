@@ -32,14 +32,13 @@
                     <td>Descripción</td>
                     <td>-</td>
                 </tr>
-                @foreach($diagnostics as $diagnostic)
+
                     <tr>
-                        <td>{{$diagnostic->nombre}}</td>
-                        <td>{{$diagnostic->descripcion}}</td>
-                        <td>{{$diagnostic->medicina}}</td>
-                        <td><a href="/medicines/{{$medicine->id}}">ver medicinas</a></td>
+                        <td>{{$diagnostics->nombre}}</td>
+                        <td>{{$diagnostics->descripcion}}</td>
+
                     </tr>
-                @endforeach
+
             </table>
         </div>
     </div>
