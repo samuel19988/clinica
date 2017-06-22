@@ -49,7 +49,7 @@
                         <td>{{$exam->nombre}}</td>
                         <td>{{$exam->tipo}}</td>
                         <td>{{$exam->descripcion}}</td>
-                        <td><a href="/exam/{{$exam->id}}">ver más</a></td>
+                        <td><a href="/exams/{{$exam->id}}">ver más</a></td>
                     </tr>
                 @endforeach
             </table>
