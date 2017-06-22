@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class diagnostic extends Model
 {
-    public function diagnostic(){
-        return $this->belongsToMany('App\diagnostic')->get();
-    }
-}
+  public function medicines(){
+    return $this->belongsToMany('App\medicines')->get();
+}}
