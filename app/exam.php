@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class exam extends Model
 {
-
-  public function diagnostics(){
-    return $this->hasMany('App\diagnostic')->get();
-}}
+    public function exams(){
+        return $this->belongsToMany('App\diagnostic')->get();
+    }
+}
