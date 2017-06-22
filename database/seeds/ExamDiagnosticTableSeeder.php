@@ -13,10 +13,10 @@ class ExamDiagnosticTableSeeder extends Seeder
     public function run()
     {
       //  $faker = Faker::create();
-        for ($i = 0; $i < 5000; $i++)
+        for ($i = 0; $i < 500; $i++)
             ExamDiagnostic::create([
-                'diagnostic_id' => rand(1, 1000),
-                'exam_id' => rand(1, 1000),
+                'diagnostic_id' => rand(1, 100),
+                'exam_id' => rand(1, 100),
             ]);
     }
 }

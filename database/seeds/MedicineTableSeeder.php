@@ -15,9 +15,9 @@ class MedicineTableSeeder extends Seeder
     {
         $faker = Faker::create();
 
-        foreach (range(1,200) as $index){
+        foreach (range(1,100) as $index){
             Medicine::create([
-                'nombre' => $faker->lastName,
+                'nombre' => 'Paracetamol',
                 'descripcion' => $faker->sentence(6,1)
             ]);
         }

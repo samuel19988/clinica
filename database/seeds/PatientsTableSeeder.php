@@ -13,7 +13,7 @@ class PatientsTableSeeder extends Seeder
     public function run()
     {
         $faker = Faker::create();
-        for ($i = 0; $i < 50; $i++) {
+        for ($i = 0; $i < 10; $i++) {
             Patient::create([
                 'nombre' => $faker->name,
                 'apellido' => $faker->lastName,

@@ -9,7 +9,7 @@ class Diagnostic extends Model
 {
     public function Diagnostic()
     {
-        return $this->belongsToMany('App\exam', 'exmas_diagnostics', 'exam_id',
+        return $this->belongsToMany('App\exam', 'exams_diagnostics', 'exam_id',
             'diagnostic_id');
     }
 }

@@ -14,7 +14,7 @@ class DiagnosticTableSeeder extends Seeder
     {
         $faker = Faker::create();
 
-        for($i=0;$i<1000; $i++){
+        for($i=0;$i<100; $i++){
             Diagnostic::create([
                 'nombre' => $faker->lastName,
                 'descripcion' => $faker->sentence(6,1),

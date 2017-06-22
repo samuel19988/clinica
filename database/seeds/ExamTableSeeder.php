@@ -12,12 +12,12 @@ class ExamTableSeeder extends Seeder
      */
     public function run()
     { $faker = Faker ::create();
-      for($i=0;$i<1000; $i++)
+      for($i=0;$i<100; $i++)
           Exam:: create([
               'nombre'=> $faker->sentence(6,true),
               'descripcion'=> $faker->sentence(12,true),
               'tipo'=> (rand(0,1)==1)? "Laboratorio":"Rayos X",
-              'patient_id'=> rand(1,50)
+              'patient_id'=> rand(1,10)
           ]);
     }
 }

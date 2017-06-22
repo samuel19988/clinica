@@ -8,19 +8,19 @@
                 <div id='calendar' style="background-color: white"></div>
 
                 <h2 class="sub-header">Medicinas</h2>
-                <table class="table table-bordered" style="color: #1b6d85; font-weight: bold">
-                    <tr>
-                        <td>Nombre</td>
-                        <td>{{$medicine->nombre}}</td>
-                    </tr>
-                    <tr>
-                        <td>Descripción</td>
-                        <td>{{$medicine->descripcion}}</td>
-                    </tr>
-                    <tr>
+                @foreach($medicines as $medicine)
+                    <table class="table table-bordered" style="color: #1b6d85; font-weight: bold">
 
-
-                </table>
+                        <tr>
+                            <td>Nombre</td>
+                            <td>{{$medicine->nombre}}</td>
+                        </tr>
+                        <tr>
+                            <td>Descripción</td>
+                            <td>{{$medicine->descripcion}}</td>
+                        </tr>
+                    </table>
+                @endforeach
             </div>
         </div>
 

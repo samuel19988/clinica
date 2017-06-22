@@ -9,6 +9,7 @@ class medicine extends Model
 {
     public function diagnostics()
     {
-        return $this->hasMany('App\Diagnostic')->get();
+        return $this->belongsToMany('\App\Diagnostic', 'medicines_diagnostics', 'diagnostic_id',
+            'medicine_id');
     }
 }
